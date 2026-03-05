@@ -1,0 +1,292 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #2c3e50;
+    --secondary-text-color: #7f8c8d;
+    --border-color: #ffd6e0;
+    --link-color: #e74c3c;
+    --link-hover-color: #c0392b;
+    --header-bg: #fffbfc;
+    --accent-pink: #ffb7c5;
+    --shadow-color: rgba(255, 182, 193, 0.2);
+}
+
+body.dark-mode {
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    --secondary-text-color: #a0a0a0;
+    --border-color: #333333;
+    --link-color: #1a97ff;
+    --header-bg: #1e1e1e;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    line-height: 1.6;
+    transition: background-color 0.2s, color 0.2s;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Top Navigation */
+.top-nav {
+    background-color: var(--header-bg);
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 60px;
+    flex-shrink: 0;
+}
+.top-nav nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 20px 15px;
+}
+.top-nav nav a:hover {
+    color: var(--link-hover-color);
+}
+#theme-toggle {
+    background: var(--secondary-text-color);
+    color: var(--bg-color);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Main Content Area */
+#main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Home Page Layout */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+}
+
+/* Other Pages Layout */
+.content-container {
+    max-width: 800px;
+    width: 100%;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.content-container article h1,
+.content-container article h2,
+.content-container article h3 {
+    color: var(--text-color);
+}
+.content-container article a {
+    color: var(--link-color);
+}
+
+/* Profile section styling (used on homepage) */
+.profile .avatar {
+    width: 200px; /* Enlarged */
+    height: 200px; /* Enlarged */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 30px;
+    border: 4px solid var(--border-color); /* Use theme border color */
+    box-shadow: 0 8px 20px var(--shadow-color), 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.profile .avatar:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 12px 30px var(--shadow-color), 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+.profile .author-name {
+    font-size: 2.8em; /* Enlarged */
+    margin: 0;
+    font-weight: 600;
+    background: linear-gradient(135deg, var(--text-color) 0%, var(--link-color) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.profile .author-bio {
+    font-size: 1.15em; /* Enlarged */
+    color: var(--secondary-text-color);
+    margin-top: 20px;
+    line-height: 1.8;
+}
+.author-bio a {
+    color: var(--link-color);
+    text-decoration: none;
+    margin: 0 4px; /* Add slight horizontal margin */
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.author-bio a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+/* Social Links */
+.social-links {
+    margin-top: 35px;
+    font-size: 1.15em; /* Enlarged */
+}
+.social-links span {
+    color: var(--link-color);
+    font-weight: 500;
+}
+.social-links a {
+    color: var(--link-color);
+    text-decoration: none;
+    margin-left: 18px; /* Add space between email and GitHub */
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+.social-links a:hover {
+    color: var(--link-hover-color);
+    transform: translateY(-2px);
+}
+
+/* Sakura (Cherry Blossom) Animation */
+.sakura-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.sakura-petal {
+    position: absolute;
+    top: -20px;
+    border-radius: 50% 0 50% 0;
+    opacity: 0.8;
+    animation: fall linear infinite, spin linear infinite;
+    pointer-events: none;
+}
+
+@keyframes fall {
+    0% {
+        top: -20px;
+        opacity: 0.8;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 0.8;
+    }
+    100% {
+        top: 100vh;
+        opacity: 0;
+        transform: translateX(var(--swing-amount));
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Travels Gallery Styles */
+.travels-gallery {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.travel-section {
+    margin-bottom: 50px;
+}
+
+.travel-title {
+    color: var(--text-color);
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-bottom: 25px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid var(--accent-pink);
+    display: inline-block;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.gallery-photo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid var(--border-color);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 3px 10px var(--shadow-color);
+}
+
+.gallery-photo:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 8px 20px var(--shadow-color);
+    border-color: var(--accent-pink);
+}
+
+/* Responsive Travels Gallery */
+@media (max-width: 768px) {
+    .travels-gallery {
+        padding: 15px;
+    }
+
+    .travel-section {
+        margin-bottom: 35px;
+    }
+
+    .travel-title {
+        font-size: 1.5em;
+        margin-bottom: 18px;
+    }
+
+    .photo-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .gallery-photo {
+        height: 180px;
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .top-nav {
+        padding: 0 20px;
+    }
+    .content-container {
+        margin: 20px auto;
+    }
+    .profile .avatar {
+        width: 160px;
+        height: 160px;
+    }
+    .profile .author-name {
+        font-size: 2.2em;
+    }
+}
