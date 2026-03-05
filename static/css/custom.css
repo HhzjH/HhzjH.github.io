@@ -206,71 +206,72 @@ body {
 
 /* Travels Gallery Styles */
 .travels-gallery {
-    max-width: 1200px;
-    margin: 40px auto;
+    max-width: 1000px;
+    margin: 30px auto;
     padding: 20px;
 }
 
 .travel-section {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .travel-title {
     color: var(--text-color);
-    font-size: 1.8em;
+    font-size: 1.5em;
     font-weight: 700;
-    margin-bottom: 25px;
-    padding-bottom: 12px;
-    border-bottom: 3px solid var(--accent-pink);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--accent-pink);
     display: inline-block;
 }
 
 .photo-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 15px;
-    margin-top: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 12px;
+    margin-top: 15px;
 }
 
 .gallery-photo {
     width: 100%;
-    height: 200px;
+    height: 150px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 8px;
     border: 2px solid var(--border-color);
     transition: all 0.3s ease;
     cursor: pointer;
-    box-shadow: 0 3px 10px var(--shadow-color);
+    box-shadow: 0 2px 8px var(--shadow-color);
 }
 
 .gallery-photo:hover {
-    transform: translateY(-5px) scale(1.03);
-    box-shadow: 0 8px 20px var(--shadow-color);
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 6px 15px var(--shadow-color);
     border-color: var(--accent-pink);
 }
 
 /* Responsive Travels Gallery */
 @media (max-width: 768px) {
     .travels-gallery {
-        padding: 15px;
+        padding: 12px;
+        margin: 20px auto;
     }
 
     .travel-section {
-        margin-bottom: 35px;
+        margin-bottom: 30px;
     }
 
     .travel-title {
-        font-size: 1.5em;
-        margin-bottom: 18px;
+        font-size: 1.3em;
+        margin-bottom: 15px;
     }
 
     .photo-grid {
         grid-template-columns: 1fr;
-        gap: 12px;
+        gap: 10px;
     }
 
     .gallery-photo {
-        height: 180px;
+        height: 140px;
     }
 }
 
