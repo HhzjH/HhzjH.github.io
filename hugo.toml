@@ -1,0 +1,9 @@
+baseURL = 'https://HhzjH.github.io/'
+languageCode = 'en-us'
+title = 'My Portfolio'
+theme = 'ananke'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on My Portfolio</title>
-    <link>http://localhost:1313/</link>
+    <link>https://HhzjH.github.io/</link>
     <description>Recent content in Home on My Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Mar 2026 20:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://HhzjH.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Travels</title>
-      <link>http://localhost:1313/travels/</link>
+      <link>https://HhzjH.github.io/travels/</link>
       <pubDate>Thu, 05 Mar 2026 20:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/travels/</guid>
-      <description>&lt;div class=&#34;travels-gallery&#34;&gt;&#xA;&lt;div class=&#34;travel-section&#34;&gt;&#xA;&lt;h2 class=&#34;travel-title&#34;&gt;海口&lt;/h2&gt;&#xA;&lt;div class=&#34;photo-grid&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/travels/haikou.jpg&#34; alt=&#34;海口&#34; class=&#34;gallery-photo&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;travel-section&#34;&gt;&#xA;&lt;h2 class=&#34;travel-title&#34;&gt;南京&lt;/h2&gt;&#xA;&lt;div class=&#34;photo-grid&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/travels/nanjing.jpg&#34; alt=&#34;南京&#34; class=&#34;gallery-photo&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;travel-section&#34;&gt;&#xA;&lt;h2 class=&#34;travel-title&#34;&gt;西藏&lt;/h2&gt;&#xA;&lt;div class=&#34;photo-grid&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/travels/xizang.JPG&#34; alt=&#34;西藏&#34; class=&#34;gallery-photo&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
+      <guid>https://HhzjH.github.io/travels/</guid>
+      <description>&lt;div class=&#34;travels-gallery&#34;&gt;&#xA;&lt;div class=&#34;travel-section&#34;&gt;&#xA;&lt;h2 class=&#34;travel-title&#34;&gt;海口&lt;/h2&gt;&#xA;&lt;div class=&#34;photo-grid&#34;&gt;&#xA;&lt;img src=&#34;https://HhzjH.github.io/images/travels/haikou.jpg&#34; alt=&#34;海口&#34; class=&#34;gallery-photo&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;travel-section&#34;&gt;&#xA;&lt;h2 class=&#34;travel-title&#34;&gt;南京&lt;/h2&gt;&#xA;&lt;div class=&#34;photo-grid&#34;&gt;&#xA;&lt;img src=&#34;https://HhzjH.github.io/images/travels/nanjing.jpg&#34; alt=&#34;南京&#34; class=&#34;gallery-photo&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;travel-section&#34;&gt;&#xA;&lt;h2 class=&#34;travel-title&#34;&gt;西藏&lt;/h2&gt;&#xA;&lt;div class=&#34;photo-grid&#34;&gt;&#xA;&lt;img src=&#34;https://HhzjH.github.io/images/travels/xizang.JPG&#34; alt=&#34;西藏&#34; class=&#34;gallery-photo&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Papers</title>
-      <link>http://localhost:1313/paper/</link>
+      <link>https://HhzjH.github.io/paper/</link>
       <pubDate>Thu, 05 Mar 2026 19:45:03 +0800</pubDate>
-      <guid>http://localhost:1313/paper/</guid>
+      <guid>https://HhzjH.github.io/paper/</guid>
       <description>&lt;h3 id=&#34;upcoming-articles&#34;&gt;Upcoming Articles&lt;/h3&gt;&#xA;&lt;p&gt;Below are some of the topics I am currently working on and will be publishing soon. Stay tuned!&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;[Article Title 1: Kinematics and Dynamics of a 6-DOF Robotic Arm]&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Coming Soon&lt;/em&gt; - A deep dive into the mathematical models governing robot movement.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;[Article Title 2: Advanced Control Strategies for Trajectory Tracking]&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Coming Soon&lt;/em&gt; - Exploring modern control theories to enhance precision and efficiency.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;[Article Title 3: Vision-Based Grasping with Reinforcement Learning]&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Curriculum Vitae</title>
-      <link>http://localhost:1313/cv/</link>
+      <link>https://HhzjH.github.io/cv/</link>
       <pubDate>Thu, 05 Mar 2026 19:45:02 +0800</pubDate>
-      <guid>http://localhost:1313/cv/</guid>
+      <guid>https://HhzjH.github.io/cv/</guid>
       <description>&lt;p&gt;&lt;em&gt;Your CV content will go here.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://HhzjH.github.io/posts/my-first-post/</link>
       <pubDate>Thu, 05 Mar 2026 18:26:15 +0800</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>https://HhzjH.github.io/posts/my-first-post/</guid>
       <description>&lt;h2 id=&#34;welcome-to-my-new-blog&#34;&gt;Welcome to my new blog!&lt;/h2&gt;&#xA;&lt;p&gt;This is my very first post on my new website. I&amp;rsquo;m excited to share my thoughts and experiences with you.&lt;/p&gt;&#xA;&lt;p&gt;Here are a few things you can expect from my blog:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Interesting articles about technology.&lt;/li&gt;&#xA;&lt;li&gt;My personal projects and portfolio.&lt;/li&gt;&#xA;&lt;li&gt;Tutorials and how-to guides.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Stay tuned for more content!&lt;/p&gt;</description>
     </item>
   </channel>

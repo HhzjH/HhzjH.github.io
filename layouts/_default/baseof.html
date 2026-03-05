@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+</head>
+<body class="{{ .Kind }}">
+    <header class="top-nav">
+        <nav>
+            <a href="{{ "/" | relURL }}">Home</a>
+            <a href="{{ "cv/" | relURL }}">CV</a>
+            <a href="{{ "paper/" | relURL }}">Paper</a>
+            <a href="{{ "travels/" | relURL }}">Travels</a>
+        </nav>
+        <button id="theme-toggle">Toggle Theme</button>
+    </header>
+
+    <main id="main-content">
+        {{ block "main" . }}{{ end }}
+    </main>
+
+    <script src="{{ "js/theme.js" | relURL }}"></script>
+    <script src="{{ "js/sakura.js" | relURL }}"></script>
+</body>
+</html>
